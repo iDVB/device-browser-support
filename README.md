@@ -58,9 +58,9 @@ A well-cited position of Device and Browser Support
     - turning off JS will break CSS layouts
 
 
-## Tools
-[**caniuse.com**](http://caniuse.com/#compare=ie+8,ie+9,ie+10,chrome+39)
-To quickly find what JS and CSS is supported across browsers
+## Support Chart
+[**caniuse.com**](http://caniuse.com/#compare=ie+8,ie+9,ie+10,firefox+34,chrome+39,safari+8)
+![Support Chart](supportchart.png)
 
 
 
