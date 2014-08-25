@@ -10,7 +10,7 @@ A well-cited position of Device and Browser Support
   - Design and planning for mobile first helps to focus on core content and functionality.
 - [**Graded Browser Support**](https://github.com/yui/yui3/wiki/Graded-Browser-Support#three-grades-of-support)
   - Support for Grade-C Browsers (IE6-8) is supported by device detecting for the sole purpose of providing a minimal HTML content only experience without JS, CSS or Polyfils.
-  - Support for NO-JS should be limited and should fundamentally provide users with recommendation to seek support for full site experience.
+  - Support for No-JS should be limited and should fundamentally provide users with recommendation to seek support for full site experience.
   - Security is #1. Even without JS (client-side validation) the servers application must ensure proper validation is performed. This document's position is only suggesting that the UX experience is limited to something like a [suggestion to enable JS](http://goo.gl/iv8qMc).
 - [**Progressive Enhancement**](http://alistapart.com/article/understandingprogressiveenhancement)
   - Minimize usage of Polyfills and Shims where usage should be limited to low impact support for Grade-C browsers.
@@ -19,7 +19,7 @@ A well-cited position of Device and Browser Support
   - Alternate code libs for targeted browsers is also not recommended. Eg. jQuery v1 for <IE9 and jQuery v2 for >IE8. This causes significant fragmentation and significantly more scenarios of failure.
 
 
-## No JS Support - Additional Cost Examples
+## No-JS Support - Additional LOE Examples
 - [**Map and GPS**](http://goo.gl/JUp1h1)
   - **Basic Support:** When a user visits a site where the device/browser does not support [Geolocation API](http://dev.w3.org/geo/api/spec-source.html) the user is prompted to manually type in their current location and hit enter to see the map results.
   - **Progressive Enhancement**: When a user visits a site where the device/browser DOES support [Geolocation API](http://dev.w3.org/geo/api/spec-source.html) the site auto locates them, prefills their search field and provides results. (User Approval Prompt Required)
